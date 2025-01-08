@@ -7,6 +7,7 @@ class House {
   final int yearOfProduction;
   final int? floor;
   final int? apartmentNumber;
+  final String imageUrl;
 
   House({
     required this.area,
@@ -17,5 +18,6 @@ class House {
     required this.floor,
     required this.apartmentNumber,
     required this.price,
+    required this.imageUrl,
   });
 }
